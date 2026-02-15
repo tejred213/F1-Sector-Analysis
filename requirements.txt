@@ -1,0 +1,6 @@
+flask==3.1.*
+flask-cors==5.*
+fastf1==3.4.*
+numpy==1.*
+pandas==2.*
+gunicorn==23.*
