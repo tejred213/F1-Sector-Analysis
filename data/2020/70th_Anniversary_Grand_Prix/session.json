@@ -1,0 +1,302 @@
+{
+  "year": 2020,
+  "gp": "70th Anniversary Grand Prix",
+  "drivers": [
+    {
+      "driver": "BOT",
+      "team": "Mercedes",
+      "color": "#00D2BE",
+      "totalLaps": 8,
+      "bestLap": 85.154,
+      "bestLapNum": 19,
+      "lapNumbers": [
+        2,
+        3,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19
+      ]
+    },
+    {
+      "driver": "HAM",
+      "team": "Mercedes",
+      "color": "#00D2BE",
+      "totalLaps": 8,
+      "bestLap": 85.217,
+      "bestLapNum": 19,
+      "lapNumbers": [
+        2,
+        3,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19
+      ]
+    },
+    {
+      "driver": "HUL",
+      "team": "Racing Point",
+      "color": "#F596C8",
+      "totalLaps": 8,
+      "bestLap": 86.082,
+      "bestLapNum": 17,
+      "lapNumbers": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        11,
+        14,
+        17
+      ]
+    },
+    {
+      "driver": "VER",
+      "team": "Red Bull Racing",
+      "color": "#1E41FF",
+      "totalLaps": 4,
+      "bestLap": 86.176,
+      "bestLapNum": 11,
+      "lapNumbers": [
+        2,
+        5,
+        8,
+        11
+      ]
+    },
+    {
+      "driver": "RIC",
+      "team": "Renault",
+      "color": "#FFF500",
+      "totalLaps": 4,
+      "bestLap": 86.297,
+      "bestLapNum": 10,
+      "lapNumbers": [
+        2,
+        7,
+        10,
+        13
+      ]
+    },
+    {
+      "driver": "STR",
+      "team": "Racing Point",
+      "color": "#F596C8",
+      "totalLaps": 6,
+      "bestLap": 86.428,
+      "bestLapNum": 17,
+      "lapNumbers": [
+        2,
+        5,
+        8,
+        11,
+        14,
+        17
+      ]
+    },
+    {
+      "driver": "GAS",
+      "team": "AlphaTauri",
+      "color": "#2B4562",
+      "totalLaps": 6,
+      "bestLap": 86.523,
+      "bestLapNum": 11,
+      "lapNumbers": [
+        2,
+        5,
+        8,
+        11,
+        14,
+        17
+      ]
+    },
+    {
+      "driver": "LEC",
+      "team": "Ferrari",
+      "color": "#DC0000",
+      "totalLaps": 5,
+      "bestLap": 86.614,
+      "bestLapNum": 15,
+      "lapNumbers": [
+        2,
+        4,
+        7,
+        12,
+        15
+      ]
+    },
+    {
+      "driver": "ALB",
+      "team": "Red Bull Racing",
+      "color": "#1E41FF",
+      "totalLaps": 6,
+      "bestLap": 86.642,
+      "bestLapNum": 11,
+      "lapNumbers": [
+        2,
+        5,
+        8,
+        11,
+        14,
+        17
+      ]
+    },
+    {
+      "driver": "NOR",
+      "team": "McLaren",
+      "color": "#FF8700",
+      "totalLaps": 6,
+      "bestLap": 86.778,
+      "bestLapNum": 17,
+      "lapNumbers": [
+        2,
+        5,
+        8,
+        11,
+        14,
+        17
+      ]
+    },
+    {
+      "driver": "OCO",
+      "team": "Renault",
+      "color": "#FFF500",
+      "totalLaps": 4,
+      "bestLap": 87.011,
+      "bestLapNum": 11,
+      "lapNumbers": [
+        2,
+        5,
+        8,
+        11
+      ]
+    },
+    {
+      "driver": "VET",
+      "team": "Ferrari",
+      "color": "#DC0000",
+      "totalLaps": 5,
+      "bestLap": 87.078,
+      "bestLapNum": 13,
+      "lapNumbers": [
+        2,
+        4,
+        7,
+        10,
+        13
+      ]
+    },
+    {
+      "driver": "SAI",
+      "team": "McLaren",
+      "color": "#FF8700",
+      "totalLaps": 4,
+      "bestLap": 87.083,
+      "bestLapNum": 11,
+      "lapNumbers": [
+        2,
+        5,
+        8,
+        11
+      ]
+    },
+    {
+      "driver": "GRO",
+      "team": "Haas F1 Team",
+      "color": "#B6BABD",
+      "totalLaps": 6,
+      "bestLap": 87.254,
+      "bestLapNum": 15,
+      "lapNumbers": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        15
+      ]
+    },
+    {
+      "driver": "RUS",
+      "team": "Williams",
+      "color": "#005AFF",
+      "totalLaps": 5,
+      "bestLap": 87.455,
+      "bestLapNum": 10,
+      "lapNumbers": [
+        2,
+        3,
+        4,
+        7,
+        10
+      ]
+    },
+    {
+      "driver": "KVY",
+      "team": "AlphaTauri",
+      "color": "#2B4562",
+      "totalLaps": 2,
+      "bestLap": 87.882,
+      "bestLapNum": 2,
+      "lapNumbers": [
+        2,
+        5
+      ]
+    },
+    {
+      "driver": "MAG",
+      "team": "Haas F1 Team",
+      "color": "#B6BABD",
+      "totalLaps": 3,
+      "bestLap": 88.236,
+      "bestLapNum": 8,
+      "lapNumbers": [
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "driver": "LAT",
+      "team": "Williams",
+      "color": "#005AFF",
+      "totalLaps": 2,
+      "bestLap": 88.43,
+      "bestLapNum": 5,
+      "lapNumbers": [
+        2,
+        5
+      ]
+    },
+    {
+      "driver": "GIO",
+      "team": "Alfa Romeo Racing",
+      "color": "#900000",
+      "totalLaps": 2,
+      "bestLap": 88.433,
+      "bestLapNum": 5,
+      "lapNumbers": [
+        2,
+        5
+      ]
+    },
+    {
+      "driver": "RAI",
+      "team": "Alfa Romeo Racing",
+      "color": "#900000",
+      "totalLaps": 2,
+      "bestLap": 88.493,
+      "bestLapNum": 5,
+      "lapNumbers": [
+        2,
+        5
+      ]
+    }
+  ]
+}

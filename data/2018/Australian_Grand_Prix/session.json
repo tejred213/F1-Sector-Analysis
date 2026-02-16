@@ -1,0 +1,110 @@
+{
+  "year": 2018,
+  "gp": "Australian Grand Prix",
+  "drivers": [
+    {
+      "driver": "HAM",
+      "team": "Mercedes",
+      "color": "#00D2BE",
+      "totalLaps": 2,
+      "bestLap": 81.164,
+      "bestLapNum": 19,
+      "lapNumbers": [
+        16,
+        19
+      ]
+    },
+    {
+      "driver": "RAI",
+      "team": "Ferrari",
+      "color": "#DC0000",
+      "totalLaps": 2,
+      "bestLap": 81.828,
+      "bestLapNum": 16,
+      "lapNumbers": [
+        13,
+        16
+      ]
+    },
+    {
+      "driver": "VET",
+      "team": "Ferrari",
+      "color": "#DC0000",
+      "totalLaps": 2,
+      "bestLap": 81.838,
+      "bestLapNum": 19,
+      "lapNumbers": [
+        16,
+        19
+      ]
+    },
+    {
+      "driver": "VER",
+      "team": "Red Bull Racing",
+      "color": "#1E41FF",
+      "totalLaps": 2,
+      "bestLap": 81.879,
+      "bestLapNum": 17,
+      "lapNumbers": [
+        14,
+        17
+      ]
+    },
+    {
+      "driver": "RIC",
+      "team": "Red Bull Racing",
+      "color": "#1E41FF",
+      "totalLaps": 2,
+      "bestLap": 82.152,
+      "bestLapNum": 16,
+      "lapNumbers": [
+        13,
+        16
+      ]
+    },
+    {
+      "driver": "MAG",
+      "team": "Haas F1 Team",
+      "color": "#B6BABD",
+      "totalLaps": 1,
+      "bestLap": 83.187,
+      "bestLapNum": 16,
+      "lapNumbers": [
+        16
+      ]
+    },
+    {
+      "driver": "GRO",
+      "team": "Haas F1 Team",
+      "color": "#B6BABD",
+      "totalLaps": 1,
+      "bestLap": 83.339,
+      "bestLapNum": 16,
+      "lapNumbers": [
+        16
+      ]
+    },
+    {
+      "driver": "HUL",
+      "team": "Renault",
+      "color": "#FFF500",
+      "totalLaps": 1,
+      "bestLap": 83.532,
+      "bestLapNum": 15,
+      "lapNumbers": [
+        15
+      ]
+    },
+    {
+      "driver": "SAI",
+      "team": "Renault",
+      "color": "#FFF500",
+      "totalLaps": 1,
+      "bestLap": 83.577,
+      "bestLapNum": 16,
+      "lapNumbers": [
+        16
+      ]
+    }
+  ]
+}

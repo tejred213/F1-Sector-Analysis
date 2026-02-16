@@ -6,8 +6,10 @@ __pycache__/
 venv/
 *.egg
 
-# FastF1 cache
+# FastF1 raw cache (large, not needed in repo)
 cache/
+
+# Pre-computed data/ is intentionally tracked — it deploys with the app
 
 # Node
 frontend/node_modules/
