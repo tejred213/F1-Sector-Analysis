@@ -750,8 +750,9 @@ body {
 
 .track-canvas {
   width: 100%;
-  max-width: 700px;
-  aspect-ratio: 1.2;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 75vh;
 }
 
 .track-hint {
