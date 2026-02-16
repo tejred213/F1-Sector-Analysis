@@ -764,6 +764,39 @@ body {
 }
 
 /* ══════════════════════════════════════════════════════════════════════
+   TELEMETRY CHARTS
+   ══════════════════════════════════════════════════════════════════════ */
+.telemetry-section {
+  margin-bottom: 36px;
+}
+
+.telemetry-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-xl);
+  padding: 24px;
+  backdrop-filter: blur(12px);
+  transition: border-color var(--transition-fast);
+}
+
+.telemetry-chart-wrapper {
+  margin-left: -20px;
+  /* Offset Recharts padding */
+  width: 100%;
+}
+
+.telemetry-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* ══════════════════════════════════════════════════════════════════════
    SPEED TRAPS
    ══════════════════════════════════════════════════════════════════════ */
 .speed-traps-grid {

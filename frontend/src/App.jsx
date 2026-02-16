@@ -5,6 +5,7 @@ import DriverSelector from './components/DriverSelector';
 import SectorCards from './components/SectorCards';
 import TrackDominance from './components/TrackDominance';
 import SpeedTraps from './components/SpeedTraps';
+import TelemetryCharts from './components/TelemetryCharts';
 import VerdictBanner from './components/VerdictBanner';
 
 function App() {
@@ -223,6 +224,12 @@ function App() {
                   <h2>Track Dominance</h2>
                 </div>
                 <TrackDominance data={trackData} />
+
+                <div className="section-header fade-in stagger-4">
+                  <div className="accent-line" />
+                  <h2>Telemetry Analysis</h2>
+                </div>
+                <TelemetryCharts data={trackData} />
               </>
             )}
 
