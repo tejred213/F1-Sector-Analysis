@@ -94,7 +94,16 @@ def sanitize_gp_name(name: str) -> str:
 def process_schedule(years: list[int]):
     """Generate data/schedule.json with all races for all years."""
     print("\n📅 Processing schedules...")
-    schedule = {}
+    
+    # Load existing schedule if it exists, to support incremental updates
+    out = DATA_DIR / "schedule.json"
+    if out.exists():
+        try:
+            schedule = json.loads(out.read_text())
+        except Exception:
+            schedule = {}
+    else:
+        schedule = {}
 
     for year in years:
         try:

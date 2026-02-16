@@ -144,5 +144,913 @@
       "country": "United Arab Emirates",
       "location": "Yas Island"
     }
+  ],
+  "2018": [
+    {
+      "round": 1,
+      "name": "Australian Grand Prix",
+      "country": "Australia",
+      "location": "Melbourne"
+    },
+    {
+      "round": 2,
+      "name": "Bahrain Grand Prix",
+      "country": "Bahrain",
+      "location": "Sakhir"
+    },
+    {
+      "round": 3,
+      "name": "Chinese Grand Prix",
+      "country": "China",
+      "location": "Shanghai"
+    },
+    {
+      "round": 4,
+      "name": "Azerbaijan Grand Prix",
+      "country": "Azerbaijan",
+      "location": "Baku"
+    },
+    {
+      "round": 5,
+      "name": "Spanish Grand Prix",
+      "country": "Spain",
+      "location": "Barcelona"
+    },
+    {
+      "round": 6,
+      "name": "Monaco Grand Prix",
+      "country": "Monaco",
+      "location": "Monte Carlo"
+    },
+    {
+      "round": 7,
+      "name": "Canadian Grand Prix",
+      "country": "Canada",
+      "location": "Montr\u00e9al"
+    },
+    {
+      "round": 8,
+      "name": "French Grand Prix",
+      "country": "France",
+      "location": "Le Castellet"
+    },
+    {
+      "round": 9,
+      "name": "Austrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 10,
+      "name": "British Grand Prix",
+      "country": "Great Britain",
+      "location": "Silverstone"
+    },
+    {
+      "round": 11,
+      "name": "German Grand Prix",
+      "country": "Germany",
+      "location": "Hockenheim"
+    },
+    {
+      "round": 12,
+      "name": "Hungarian Grand Prix",
+      "country": "Hungary",
+      "location": "Budapest"
+    },
+    {
+      "round": 13,
+      "name": "Belgian Grand Prix",
+      "country": "Belgium",
+      "location": "Spa-Francorchamps"
+    },
+    {
+      "round": 14,
+      "name": "Italian Grand Prix",
+      "country": "Italy",
+      "location": "Monza"
+    },
+    {
+      "round": 15,
+      "name": "Singapore Grand Prix",
+      "country": "Singapore",
+      "location": "Singapore"
+    },
+    {
+      "round": 16,
+      "name": "Russian Grand Prix",
+      "country": "Russia",
+      "location": "Sochi"
+    },
+    {
+      "round": 17,
+      "name": "Japanese Grand Prix",
+      "country": "Japan",
+      "location": "Suzuka"
+    },
+    {
+      "round": 18,
+      "name": "United States Grand Prix",
+      "country": "United States",
+      "location": "Austin"
+    },
+    {
+      "round": 19,
+      "name": "Mexican Grand Prix",
+      "country": "Mexico",
+      "location": "Mexico City"
+    },
+    {
+      "round": 20,
+      "name": "Brazilian Grand Prix",
+      "country": "Brazil",
+      "location": "S\u00e3o Paulo"
+    },
+    {
+      "round": 21,
+      "name": "Abu Dhabi Grand Prix",
+      "country": "United Arab Emirates",
+      "location": "Yas Marina"
+    }
+  ],
+  "2019": [
+    {
+      "round": 1,
+      "name": "Australian Grand Prix",
+      "country": "Australia",
+      "location": "Melbourne"
+    },
+    {
+      "round": 2,
+      "name": "Bahrain Grand Prix",
+      "country": "Bahrain",
+      "location": "Sakhir"
+    },
+    {
+      "round": 3,
+      "name": "Chinese Grand Prix",
+      "country": "China",
+      "location": "Shanghai"
+    },
+    {
+      "round": 4,
+      "name": "Azerbaijan Grand Prix",
+      "country": "Azerbaijan",
+      "location": "Baku"
+    },
+    {
+      "round": 5,
+      "name": "Spanish Grand Prix",
+      "country": "Spain",
+      "location": "Barcelona"
+    },
+    {
+      "round": 6,
+      "name": "Monaco Grand Prix",
+      "country": "Monaco",
+      "location": "Monte Carlo"
+    },
+    {
+      "round": 7,
+      "name": "Canadian Grand Prix",
+      "country": "Canada",
+      "location": "Montr\u00e9al"
+    },
+    {
+      "round": 8,
+      "name": "French Grand Prix",
+      "country": "France",
+      "location": "Le Castellet"
+    },
+    {
+      "round": 9,
+      "name": "Austrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 10,
+      "name": "British Grand Prix",
+      "country": "Great Britain",
+      "location": "Silverstone"
+    },
+    {
+      "round": 11,
+      "name": "German Grand Prix",
+      "country": "Germany",
+      "location": "Hockenheim"
+    },
+    {
+      "round": 12,
+      "name": "Hungarian Grand Prix",
+      "country": "Hungary",
+      "location": "Budapest"
+    },
+    {
+      "round": 13,
+      "name": "Belgian Grand Prix",
+      "country": "Belgium",
+      "location": "Spa-Francorchamps"
+    },
+    {
+      "round": 14,
+      "name": "Italian Grand Prix",
+      "country": "Italy",
+      "location": "Monza"
+    },
+    {
+      "round": 15,
+      "name": "Singapore Grand Prix",
+      "country": "Singapore",
+      "location": "Singapore"
+    },
+    {
+      "round": 16,
+      "name": "Russian Grand Prix",
+      "country": "Russia",
+      "location": "Sochi"
+    },
+    {
+      "round": 17,
+      "name": "Japanese Grand Prix",
+      "country": "Japan",
+      "location": "Suzuka"
+    },
+    {
+      "round": 18,
+      "name": "Mexican Grand Prix",
+      "country": "Mexico",
+      "location": "Mexico City"
+    },
+    {
+      "round": 19,
+      "name": "United States Grand Prix",
+      "country": "United States",
+      "location": "Austin"
+    },
+    {
+      "round": 20,
+      "name": "Brazilian Grand Prix",
+      "country": "Brazil",
+      "location": "S\u00e3o Paulo"
+    },
+    {
+      "round": 21,
+      "name": "Abu Dhabi Grand Prix",
+      "country": "Abu Dhabi",
+      "location": "Yas Island"
+    }
+  ],
+  "2020": [
+    {
+      "round": 1,
+      "name": "Austrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 2,
+      "name": "Styrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 3,
+      "name": "Hungarian Grand Prix",
+      "country": "Hungary",
+      "location": "Budapest"
+    },
+    {
+      "round": 4,
+      "name": "British Grand Prix",
+      "country": "Great Britain",
+      "location": "Silverstone"
+    },
+    {
+      "round": 5,
+      "name": "70th Anniversary Grand Prix",
+      "country": "Great Britain",
+      "location": "Silverstone"
+    },
+    {
+      "round": 6,
+      "name": "Spanish Grand Prix",
+      "country": "Spain",
+      "location": "Barcelona"
+    },
+    {
+      "round": 7,
+      "name": "Belgian Grand Prix",
+      "country": "Belgium",
+      "location": "Spa-Francorchamps"
+    },
+    {
+      "round": 8,
+      "name": "Italian Grand Prix",
+      "country": "Italy",
+      "location": "Monza"
+    },
+    {
+      "round": 9,
+      "name": "Tuscan Grand Prix",
+      "country": "Italy",
+      "location": "Mugello"
+    },
+    {
+      "round": 10,
+      "name": "Russian Grand Prix",
+      "country": "Russia",
+      "location": "Sochi"
+    },
+    {
+      "round": 11,
+      "name": "Eifel Grand Prix",
+      "country": "Germany",
+      "location": "N\u00fcrburgring"
+    },
+    {
+      "round": 12,
+      "name": "Portuguese Grand Prix",
+      "country": "Portugal",
+      "location": "Portim\u00e3o"
+    },
+    {
+      "round": 13,
+      "name": "Emilia Romagna Grand Prix",
+      "country": "Italy",
+      "location": "Imola"
+    },
+    {
+      "round": 14,
+      "name": "Turkish Grand Prix",
+      "country": "Turkey",
+      "location": "Istanbul"
+    },
+    {
+      "round": 15,
+      "name": "Bahrain Grand Prix",
+      "country": "Bahrain",
+      "location": "Sakhir"
+    },
+    {
+      "round": 16,
+      "name": "Sakhir Grand Prix",
+      "country": "Bahrain",
+      "location": "Sakhir"
+    },
+    {
+      "round": 17,
+      "name": "Abu Dhabi Grand Prix",
+      "country": "Abu Dhabi",
+      "location": "Yas Island"
+    }
+  ],
+  "2021": [
+    {
+      "round": 1,
+      "name": "Bahrain Grand Prix",
+      "country": "Bahrain",
+      "location": "Sakhir"
+    },
+    {
+      "round": 2,
+      "name": "Emilia Romagna Grand Prix",
+      "country": "Italy",
+      "location": "Imola"
+    },
+    {
+      "round": 3,
+      "name": "Portuguese Grand Prix",
+      "country": "Portugal",
+      "location": "Portim\u00e3o"
+    },
+    {
+      "round": 4,
+      "name": "Spanish Grand Prix",
+      "country": "Spain",
+      "location": "Barcelona"
+    },
+    {
+      "round": 5,
+      "name": "Monaco Grand Prix",
+      "country": "Monaco",
+      "location": "Monte Carlo"
+    },
+    {
+      "round": 6,
+      "name": "Azerbaijan Grand Prix",
+      "country": "Azerbaijan",
+      "location": "Baku"
+    },
+    {
+      "round": 7,
+      "name": "French Grand Prix",
+      "country": "France",
+      "location": "Le Castellet"
+    },
+    {
+      "round": 8,
+      "name": "Styrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 9,
+      "name": "Austrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 10,
+      "name": "British Grand Prix",
+      "country": "Great Britain",
+      "location": "Silverstone"
+    },
+    {
+      "round": 11,
+      "name": "Hungarian Grand Prix",
+      "country": "Hungary",
+      "location": "Budapest"
+    },
+    {
+      "round": 12,
+      "name": "Belgian Grand Prix",
+      "country": "Belgium",
+      "location": "Spa-Francorchamps"
+    },
+    {
+      "round": 13,
+      "name": "Dutch Grand Prix",
+      "country": "Netherlands",
+      "location": "Zandvoort"
+    },
+    {
+      "round": 14,
+      "name": "Italian Grand Prix",
+      "country": "Italy",
+      "location": "Monza"
+    },
+    {
+      "round": 15,
+      "name": "Russian Grand Prix",
+      "country": "Russia",
+      "location": "Sochi"
+    },
+    {
+      "round": 16,
+      "name": "Turkish Grand Prix",
+      "country": "Turkey",
+      "location": "Istanbul"
+    },
+    {
+      "round": 17,
+      "name": "United States Grand Prix",
+      "country": "United States",
+      "location": "Austin"
+    },
+    {
+      "round": 18,
+      "name": "Mexico City Grand Prix",
+      "country": "Mexico",
+      "location": "Mexico City"
+    },
+    {
+      "round": 19,
+      "name": "S\u00e3o Paulo Grand Prix",
+      "country": "Brazil",
+      "location": "S\u00e3o Paulo"
+    },
+    {
+      "round": 20,
+      "name": "Qatar Grand Prix",
+      "country": "Qatar",
+      "location": "Lusail"
+    },
+    {
+      "round": 21,
+      "name": "Saudi Arabian Grand Prix",
+      "country": "Saudi Arabia",
+      "location": "Jeddah"
+    },
+    {
+      "round": 22,
+      "name": "Abu Dhabi Grand Prix",
+      "country": "Abu Dhabi",
+      "location": "Yas Island"
+    }
+  ],
+  "2022": [
+    {
+      "round": 1,
+      "name": "Bahrain Grand Prix",
+      "country": "Bahrain",
+      "location": "Sakhir"
+    },
+    {
+      "round": 2,
+      "name": "Saudi Arabian Grand Prix",
+      "country": "Saudi Arabia",
+      "location": "Jeddah"
+    },
+    {
+      "round": 3,
+      "name": "Australian Grand Prix",
+      "country": "Australia",
+      "location": "Melbourne"
+    },
+    {
+      "round": 4,
+      "name": "Emilia Romagna Grand Prix",
+      "country": "Italy",
+      "location": "Imola"
+    },
+    {
+      "round": 5,
+      "name": "Miami Grand Prix",
+      "country": "United States",
+      "location": "Miami"
+    },
+    {
+      "round": 6,
+      "name": "Spanish Grand Prix",
+      "country": "Spain",
+      "location": "Barcelona"
+    },
+    {
+      "round": 7,
+      "name": "Monaco Grand Prix",
+      "country": "Monaco",
+      "location": "Monaco"
+    },
+    {
+      "round": 8,
+      "name": "Azerbaijan Grand Prix",
+      "country": "Azerbaijan",
+      "location": "Baku"
+    },
+    {
+      "round": 9,
+      "name": "Canadian Grand Prix",
+      "country": "Canada",
+      "location": "Montr\u00e9al"
+    },
+    {
+      "round": 10,
+      "name": "British Grand Prix",
+      "country": "Great Britain",
+      "location": "Silverstone"
+    },
+    {
+      "round": 11,
+      "name": "Austrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 12,
+      "name": "French Grand Prix",
+      "country": "France",
+      "location": "Le Castellet"
+    },
+    {
+      "round": 13,
+      "name": "Hungarian Grand Prix",
+      "country": "Hungary",
+      "location": "Budapest"
+    },
+    {
+      "round": 14,
+      "name": "Belgian Grand Prix",
+      "country": "Belgium",
+      "location": "Spa-Francorchamps"
+    },
+    {
+      "round": 15,
+      "name": "Dutch Grand Prix",
+      "country": "Netherlands",
+      "location": "Zandvoort"
+    },
+    {
+      "round": 16,
+      "name": "Italian Grand Prix",
+      "country": "Italy",
+      "location": "Monza"
+    },
+    {
+      "round": 17,
+      "name": "Singapore Grand Prix",
+      "country": "Singapore",
+      "location": "Marina Bay"
+    },
+    {
+      "round": 18,
+      "name": "Japanese Grand Prix",
+      "country": "Japan",
+      "location": "Suzuka"
+    },
+    {
+      "round": 19,
+      "name": "United States Grand Prix",
+      "country": "United States",
+      "location": "Austin"
+    },
+    {
+      "round": 20,
+      "name": "Mexico City Grand Prix",
+      "country": "Mexico",
+      "location": "Mexico City"
+    },
+    {
+      "round": 21,
+      "name": "S\u00e3o Paulo Grand Prix",
+      "country": "Brazil",
+      "location": "S\u00e3o Paulo"
+    },
+    {
+      "round": 22,
+      "name": "Abu Dhabi Grand Prix",
+      "country": "Abu Dhabi",
+      "location": "Yas Island"
+    }
+  ],
+  "2023": [
+    {
+      "round": 1,
+      "name": "Bahrain Grand Prix",
+      "country": "Bahrain",
+      "location": "Sakhir"
+    },
+    {
+      "round": 2,
+      "name": "Saudi Arabian Grand Prix",
+      "country": "Saudi Arabia",
+      "location": "Jeddah"
+    },
+    {
+      "round": 3,
+      "name": "Australian Grand Prix",
+      "country": "Australia",
+      "location": "Melbourne"
+    },
+    {
+      "round": 4,
+      "name": "Azerbaijan Grand Prix",
+      "country": "Azerbaijan",
+      "location": "Baku"
+    },
+    {
+      "round": 5,
+      "name": "Miami Grand Prix",
+      "country": "United States",
+      "location": "Miami"
+    },
+    {
+      "round": 6,
+      "name": "Monaco Grand Prix",
+      "country": "Monaco",
+      "location": "Monaco"
+    },
+    {
+      "round": 7,
+      "name": "Spanish Grand Prix",
+      "country": "Spain",
+      "location": "Barcelona"
+    },
+    {
+      "round": 8,
+      "name": "Canadian Grand Prix",
+      "country": "Canada",
+      "location": "Montr\u00e9al"
+    },
+    {
+      "round": 9,
+      "name": "Austrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 10,
+      "name": "British Grand Prix",
+      "country": "Great Britain",
+      "location": "Silverstone"
+    },
+    {
+      "round": 11,
+      "name": "Hungarian Grand Prix",
+      "country": "Hungary",
+      "location": "Budapest"
+    },
+    {
+      "round": 12,
+      "name": "Belgian Grand Prix",
+      "country": "Belgium",
+      "location": "Spa-Francorchamps"
+    },
+    {
+      "round": 13,
+      "name": "Dutch Grand Prix",
+      "country": "Netherlands",
+      "location": "Zandvoort"
+    },
+    {
+      "round": 14,
+      "name": "Italian Grand Prix",
+      "country": "Italy",
+      "location": "Monza"
+    },
+    {
+      "round": 15,
+      "name": "Singapore Grand Prix",
+      "country": "Singapore",
+      "location": "Marina Bay"
+    },
+    {
+      "round": 16,
+      "name": "Japanese Grand Prix",
+      "country": "Japan",
+      "location": "Suzuka"
+    },
+    {
+      "round": 17,
+      "name": "Qatar Grand Prix",
+      "country": "Qatar",
+      "location": "Lusail"
+    },
+    {
+      "round": 18,
+      "name": "United States Grand Prix",
+      "country": "United States",
+      "location": "Austin"
+    },
+    {
+      "round": 19,
+      "name": "Mexico City Grand Prix",
+      "country": "Mexico",
+      "location": "Mexico City"
+    },
+    {
+      "round": 20,
+      "name": "S\u00e3o Paulo Grand Prix",
+      "country": "Brazil",
+      "location": "S\u00e3o Paulo"
+    },
+    {
+      "round": 21,
+      "name": "Las Vegas Grand Prix",
+      "country": "United States",
+      "location": "Las Vegas"
+    },
+    {
+      "round": 22,
+      "name": "Abu Dhabi Grand Prix",
+      "country": "Abu Dhabi",
+      "location": "Yas Island"
+    }
+  ],
+  "2024": [
+    {
+      "round": 1,
+      "name": "Bahrain Grand Prix",
+      "country": "Bahrain",
+      "location": "Sakhir"
+    },
+    {
+      "round": 2,
+      "name": "Saudi Arabian Grand Prix",
+      "country": "Saudi Arabia",
+      "location": "Jeddah"
+    },
+    {
+      "round": 3,
+      "name": "Australian Grand Prix",
+      "country": "Australia",
+      "location": "Melbourne"
+    },
+    {
+      "round": 4,
+      "name": "Japanese Grand Prix",
+      "country": "Japan",
+      "location": "Suzuka"
+    },
+    {
+      "round": 5,
+      "name": "Chinese Grand Prix",
+      "country": "China",
+      "location": "Shanghai"
+    },
+    {
+      "round": 6,
+      "name": "Miami Grand Prix",
+      "country": "United States",
+      "location": "Miami"
+    },
+    {
+      "round": 7,
+      "name": "Emilia Romagna Grand Prix",
+      "country": "Italy",
+      "location": "Imola"
+    },
+    {
+      "round": 8,
+      "name": "Monaco Grand Prix",
+      "country": "Monaco",
+      "location": "Monaco"
+    },
+    {
+      "round": 9,
+      "name": "Canadian Grand Prix",
+      "country": "Canada",
+      "location": "Montr\u00e9al"
+    },
+    {
+      "round": 10,
+      "name": "Spanish Grand Prix",
+      "country": "Spain",
+      "location": "Barcelona"
+    },
+    {
+      "round": 11,
+      "name": "Austrian Grand Prix",
+      "country": "Austria",
+      "location": "Spielberg"
+    },
+    {
+      "round": 12,
+      "name": "British Grand Prix",
+      "country": "United Kingdom",
+      "location": "Silverstone"
+    },
+    {
+      "round": 13,
+      "name": "Hungarian Grand Prix",
+      "country": "Hungary",
+      "location": "Budapest"
+    },
+    {
+      "round": 14,
+      "name": "Belgian Grand Prix",
+      "country": "Belgium",
+      "location": "Spa-Francorchamps"
+    },
+    {
+      "round": 15,
+      "name": "Dutch Grand Prix",
+      "country": "Netherlands",
+      "location": "Zandvoort"
+    },
+    {
+      "round": 16,
+      "name": "Italian Grand Prix",
+      "country": "Italy",
+      "location": "Monza"
+    },
+    {
+      "round": 17,
+      "name": "Azerbaijan Grand Prix",
+      "country": "Azerbaijan",
+      "location": "Baku"
+    },
+    {
+      "round": 18,
+      "name": "Singapore Grand Prix",
+      "country": "Singapore",
+      "location": "Marina Bay"
+    },
+    {
+      "round": 19,
+      "name": "United States Grand Prix",
+      "country": "United States",
+      "location": "Austin"
+    },
+    {
+      "round": 20,
+      "name": "Mexico City Grand Prix",
+      "country": "Mexico",
+      "location": "Mexico City"
+    },
+    {
+      "round": 21,
+      "name": "S\u00e3o Paulo Grand Prix",
+      "country": "Brazil",
+      "location": "S\u00e3o Paulo"
+    },
+    {
+      "round": 22,
+      "name": "Las Vegas Grand Prix",
+      "country": "United States",
+      "location": "Las Vegas"
+    },
+    {
+      "round": 23,
+      "name": "Qatar Grand Prix",
+      "country": "Qatar",
+      "location": "Lusail"
+    },
+    {
+      "round": 24,
+      "name": "Abu Dhabi Grand Prix",
+      "country": "United Arab Emirates",
+      "location": "Yas Island"
+    }
   ]
 }
