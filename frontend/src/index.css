@@ -299,6 +299,49 @@ body {
   backdrop-filter: blur(12px);
 }
 
+.driver-card__content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  z-index: 2;
+  /* Ensure above background effect */
+}
+
+.driver-card__visuals {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+}
+
+.driver-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+.driver-card__number {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 42px;
+  height: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
+  transition: transform var(--transition-bounce);
+  z-index: 10;
+}
+
+.driver-card:hover .driver-card__number {
+  transform: scale(1.15) rotate(-6deg);
+}
+
 .driver-card::before {
   content: '';
   position: absolute;
