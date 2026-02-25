@@ -48,11 +48,6 @@ function LandingPage() {
             </div>
             
             <div className="hero__social-proof">
-              <div className="avatars">
-                <div className="avatar a1"></div>
-                <div className="avatar a2"></div>
-                <div className="avatar a3"></div>
-              </div>
               <span>Used by <strong className="text-red">FORMULA 1 FANS</strong> worldwide</span>
             </div>
           </div>
