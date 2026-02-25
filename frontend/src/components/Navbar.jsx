@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+
 export default function Navbar({ sessionLabel }) {
     return (
         <nav className="navbar">
-            <div className="navbar__brand">
+            <Link to="/" className="navbar__brand" style={{ textDecoration: 'none' }}>
                 <span className="accent">F1</span> Sector Analysis
-            </div>
+            </Link>
             {sessionLabel && (
                 <div className="navbar__session">
                     <span style={{ color: '#E10600', marginRight: 6 }}>●</span>
