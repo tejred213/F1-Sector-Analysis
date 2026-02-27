@@ -130,14 +130,22 @@ def process_schedule(years: list[int]):
     return schedule
 
 
-def process_session(year: int, gp_name: str, gp_dir_name: str):
+def process_session(year: int, gp_name: str, gp_dir_name: str, force_telemetry: bool = False):
     """Process a single qualifying session into JSON files."""
 
     gp_dir = DATA_DIR / str(year) / gp_dir_name
     gp_dir.mkdir(parents=True, exist_ok=True)
 
-    # Skip if already processed
-    if (gp_dir / "session.json").exists() and (gp_dir / "laps.json").exists():
+    # If force_telemetry, wipe existing telemetry and rebuild (keep laps/session)
+    if force_telemetry:
+        tel_dir_existing = gp_dir / "telemetry"
+        if tel_dir_existing.exists():
+            import shutil
+            shutil.rmtree(tel_dir_existing)
+            print(f"    🗑️  Cleared existing telemetry cache")
+
+    # Skip if already processed (unless force_telemetry, which only rebuilds telemetry)
+    if (gp_dir / "session.json").exists() and (gp_dir / "laps.json").exists() and not force_telemetry:
         print(f"    ⏭  Already processed, skipping")
         return True
 
@@ -264,13 +272,25 @@ def process_session(year: int, gp_name: str, gp_dir_name: str):
             total_dist = tel["Distance"].max()
             ref_dist = np.linspace(0, total_dist, NUM_MINI_SECTORS)
 
+            def _interp(col, round_digits=1):
+                """Interpolate telemetry column onto ref_dist grid."""
+                if col not in tel.columns:
+                    return [0.0] * NUM_MINI_SECTORS
+                return [round(float(v), round_digits)
+                        for v in np.interp(ref_dist, tel["Distance"], tel[col])]
+
             tel_data = {
                 "driver": drv,
                 "lapNumber": best_num,
                 "distance": [round(float(d), 1) for d in ref_dist],
-                "x": [round(float(v), 1) for v in np.interp(ref_dist, tel["Distance"], tel["X"])],
-                "y": [round(float(v), 1) for v in np.interp(ref_dist, tel["Distance"], tel["Y"])],
-                "speed": [round(float(v), 1) for v in np.interp(ref_dist, tel["Distance"], tel["Speed"])],
+                "x": _interp("X"),
+                "y": _interp("Y"),
+                "speed":    _interp("Speed"),
+                "gear":     _interp("nGear", round_digits=0),
+                "drs":      _interp("DRS",   round_digits=0),
+                "rpm":      _interp("RPM",   round_digits=0),
+                "throttle": _interp("Throttle"),
+                "brake":    _interp("Brake"),
             }
             (tel_dir / filename).write_text(json.dumps(tel_data))
         except Exception as e:
@@ -289,6 +309,8 @@ def main():
     parser = argparse.ArgumentParser(description="Pre-process F1 qualifying data")
     parser.add_argument("--year", type=int, help="Process a single year")
     parser.add_argument("--gp", type=str, help="Process a single GP (requires --year)")
+    parser.add_argument("--force-telemetry", action="store_true",
+                        help="Wipe and rebuild telemetry/ files (keeps laps/session data)")
     args = parser.parse_args()
 
     if args.gp and not args.year:
@@ -322,7 +344,8 @@ def main():
             print(f"\n  📍 R{race['round']}: {gp_name}")
 
             try:
-                ok = process_session(year, gp_name, gp_dir_name)
+                ok = process_session(year, gp_name, gp_dir_name,
+                                     force_telemetry=args.force_telemetry)
                 if ok:
                     success += 1
                 else:

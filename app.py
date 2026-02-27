@@ -385,12 +385,34 @@ def api_track_dominance():
     team1 = next((d["team"] for d in session_data["drivers"] if d["driver"] == d1), "")
     team2 = next((d["team"] for d in session_data["drivers"] if d["driver"] == d2), "")
 
+    def _pad(arr, length):
+        """Trim or zero-pad an array to exactly `length` elements."""
+        if not arr:
+            return [0] * length
+        if len(arr) >= length:
+            return arr[:length]
+        return arr + [0] * (length - len(arr))
+
+    extra_fields = ["gear", "drs", "rpm", "throttle", "brake"]
+    extra1 = {f: _pad(tel1.get(f, []), n) for f in extra_fields}
+    extra2 = {f: _pad(tel2.get(f, []), n) for f in extra_fields}
+
     return jsonify({
         "x": [round(v, 1) for v in x],
         "y": [round(v, 1) for v in y],
         "dominance": dominance,
         "speed1": s1[:n],
         "speed2": s2[:n],
+        "gear1":     extra1["gear"],
+        "gear2":     extra2["gear"],
+        "drs1":      extra1["drs"],
+        "drs2":      extra2["drs"],
+        "rpm1":      extra1["rpm"],
+        "rpm2":      extra2["rpm"],
+        "throttle1": extra1["throttle"],
+        "throttle2": extra2["throttle"],
+        "brake1":    extra1["brake"],
+        "brake2":    extra2["brake"],
         "driver1": d1,
         "driver2": d2,
         "team1": team1,
