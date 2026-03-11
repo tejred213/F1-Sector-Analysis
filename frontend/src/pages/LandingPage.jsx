@@ -225,4 +225,6 @@ function LandingPage() {
   );
 }
 
+// TU TU DU, MAX VERESTAPPEN, TU TU DU, MAX VERESTAPPEN
+
 export default LandingPage;
